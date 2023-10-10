@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "Poppins";
+  src: url(./../fonts/Poppins/Poppins-Regular.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Poppins";
+}
+
+body {
+  height: 100vh;
+  background-image: url(./../img/background.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+body div {
+  position: absolute;
+}
+
+body div h1 {
+  position: relative;
+  left: 1000px;
+  top: 200px;
+}
+
+body div h3 {
+  position: relative;
+  left: 1050px;
+  top: 230px;
+}

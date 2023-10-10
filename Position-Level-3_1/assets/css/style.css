@@ -1,0 +1,145 @@
+@font-face {
+  font-family: "Poppins";
+  src: url(./../fonts/Poppins/Poppins-Regular.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Poppins";
+  --color-background: rgb(23, 24, 28);
+  --color-primary: #727577;
+  --color-secondary: #6f6864;
+  --color-acent: #b0805d;
+  --color-hover: #f1f1f1e1;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--color-background);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ========================  FONT ========================== */
+
+.logo {
+  font-size: 2.25rem;
+  font-weight: 400;
+  color: var(--color-primary);
+}
+
+header div a {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: var(--color-secondary);
+  text-transform: uppercase;
+}
+
+header nav a {
+  font-size: 1rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: var(--color-secondary);
+}
+
+header nav a:hover {
+  color: var(--color-hover);
+}
+
+h1 {
+  font-size: 3.75rem;
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+p {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: var(--color-acent);
+}
+
+footer nav a {
+  font-size: 1rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: var(--color-secondary);
+  border: 2px solid var(--color-acent);
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+
+/* ========================  NAVBAR ========================== */
+
+header div {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--color-primary);
+  padding: 10px 70px;
+}
+
+header nav {
+  display: flex;
+  gap: 120px;
+  margin-right: 100px;
+}
+
+/* ========================  MAIN ========================== */
+
+.hero {
+  position: relative;
+  display: flex;
+  gap: 70px;
+  justify-content: flex-end;
+  padding-top: 100px;
+}
+
+.header {
+  padding-top: 100px;
+  padding-left: 216px;
+}
+
+.header h1 {
+  padding-bottom: 80px;
+}
+
+.gallery {
+  display: flex;
+  gap: 38px;
+  padding: 3vh 0;
+}
+
+.gallery img {
+  width: 250px;
+  height: 600px;
+}
+
+/* ========================  FOOTER ========================== */
+
+footer {
+  padding: 10px 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer div,
+footer nav {
+  display: flex;
+  gap: 32px;
+}
